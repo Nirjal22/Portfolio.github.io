@@ -22,7 +22,7 @@
     height: 100vh;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Image/backgroundImage1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Image/backgroundImage1.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
