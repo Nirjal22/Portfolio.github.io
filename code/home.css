@@ -140,3 +140,54 @@
     display: inline;
     height: 0vh;
 }
+@media only screen and (max-height: 700px){
+    * {
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+    }
+}
+@media only screen and (max-width: 400px){
+    .wrap{
+        position: absolute;
+        top: 12%;
+        left: 64%;
+        transform: translate(-50%,-50%);
+        margin-left: 27%;
+        margin-top: -11%;
+    }
+    .NB {
+
+        margin-top: -94%;
+        font-size: 3.5rem;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 300;
+    }
+    .des {
+        word-wrap: break-word;
+        margin-top: -98%;
+        font-size: 1.2rem;
+        color: rgb(135, 118, 118);
+        font-weight: 600;
+        width: 50vw;
+        margin-left: 25%;
+        font-family: "Kode Mono", monospace;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 2s steps(20), cursor .4s step-end infinite alternate;
+        animation-iteration-count: infinite;
+    }
+    @keyframes cursor {
+        50% {
+            border-color: transparent;
+        }
+    }
+    
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+    }
+    
+}
