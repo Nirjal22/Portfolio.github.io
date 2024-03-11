@@ -114,7 +114,7 @@
     display: inline;
     position: relative;
     top: 40%;
-    left: 45%;
+    left: 55%;
 }
 
 .email .email_link {
@@ -131,6 +131,7 @@
     height: 20vh;
     display: inline;
     margin-top: 60%;
+    margin-left: 50%;
 }
 
 .github_image:hover {
