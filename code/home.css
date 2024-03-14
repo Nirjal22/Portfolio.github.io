@@ -143,59 +143,81 @@
     display: inline;
     height: 0vh;
 }
-
-@media only screen and (max-height: 700px) {
+@media only screen and (min-height:1079px) and (min-width:1919px){
+    .wrap{
+        margin-top: -26%;
+    }
+    .NB{
+        margin-top: -37%;
+    }
+    .des{
+        margin-top: -41%;
+    }
+    .table{
+        margin-top: 7%;
+    }
+    .email{
+        margin-left: 10%;
+    }
+    .github_image{
+        margin-left: 31%;
+    }
+    .email_link{
+        margin-left: 20%;
+    }
+}
+@media only screen and (max-height: 920px) {
     * {
         margin: 0;
         padding: 0;
         height: fit-content;
     }
-}
 
-@media only screen and (max-width: 400px) {
-    .wrap {
-        position: absolute;
-        top: 12%;
-        left: 64%;
-        transform: translate(-50%, -50%);
-        margin-left: 27%;
-        margin-top: -11%;
+    .bg_image {
+        height: 100vh;
     }
 
     .NB {
+        margin-bottom: 20%;
+    }
 
-        margin-top: -94%;
-        font-size: 3.5rem;
-        color: white;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 300;
+    .wrap {
+        margin-top: -26%;
     }
 
     .des {
-        word-wrap: break-word;
-        margin-top: -98%;
-        font-size: 1.2rem;
-        color: rgb(135, 118, 118);
-        font-weight: 600;
-        width: 50vw;
-        margin-left: 25%;
-        font-family: "Kode Mono", monospace;
-        white-space: nowrap;
-        overflow: hidden;
-        animation: typing 2s steps(20), cursor .4s step-end infinite alternate;
-        animation-iteration-count: infinite;
+        margin-top: -44%;
     }
 
-    @keyframes cursor {
-        50% {
-            border-color: transparent;
-        }
+    .table {
+        margin-top: 8%;
     }
 
-    @keyframes typing {
-        from {
-            width: 0;
-        }
+    .email {
+        margin-left: 8%;
     }
 
+    .github_image {
+        margin-left: 13%;
+    }
+}
+@media only screen and (max-width:420px) {
+    .wrap {
+        margin-top: -100%;
+        margin-left: 40%;
+    }
+
+    .NB {
+        margin-top: -130%;
+    }
+
+    .des {
+        margin-top: -130%;
+        /* display: flex; */
+    }
+
+    .bg_image {
+        height: 100vh;
+    }
+    
 }
