@@ -143,29 +143,37 @@
     display: inline;
     height: 0vh;
 }
-@media only screen and (min-height:1079px) and (min-width:1919px){
-    .wrap{
+
+@media only screen and (min-height:1079px) and (min-width:1919px) {
+    .wrap {
         margin-top: -26%;
     }
-    .NB{
+
+    .NB {
         margin-top: -37%;
     }
-    .des{
+
+    .des {
         margin-top: -41%;
     }
-    .table{
+
+    .table {
         margin-top: 7%;
     }
-    .email{
+
+    .email {
         margin-left: 10%;
     }
-    .github_image{
+
+    .github_image {
         margin-left: 31%;
     }
-    .email_link{
+
+    .email_link {
         margin-left: 20%;
     }
 }
+
 @media only screen and (max-height: 920px) {
     * {
         margin: 0;
@@ -201,6 +209,7 @@
         margin-left: 13%;
     }
 }
+
 @media only screen and (max-width:420px) {
     .wrap {
         margin-top: -100%;
@@ -219,5 +228,5 @@
     .bg_image {
         height: 100vh;
     }
-    
+
 }
